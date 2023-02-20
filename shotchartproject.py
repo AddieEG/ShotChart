@@ -62,7 +62,7 @@ def getTeamLogo(nba_team):
     url = "https://api-nba-v1.p.rapidapi.com/teams"
 
     headers = {
-        "X-RapidAPI-Key": "8a7b792068msh1f8924af1a899a1p16b946jsn786aa3ea3473",
+        "X-RapidAPI-Key": "--",
         "X-RapidAPI-Host": "api-nba-v1.p.rapidapi.com"
     }
     response = requests.get(url, headers=headers)
